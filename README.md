@@ -31,7 +31,7 @@ The file `gths.html` is a polished, single-page landing page that already includ
 
 - **Utility bar:** Free delivery notice, trade login, phone number.
 - **Sticky header:** Logo, navigation, search, account, cart, mobile hamburger menu.
-- **Hero section:** "Tools That Earn Their Keep" headline with a custom SVG drill illustration.
+- **Hero section:** "Tools That Earn Their Keep" headline with an interactive drill-penetration animation widget.
 - **Categories section:** 6 category cards (Hand Tools, Power Tools, Fasteners & Fixings, Storage & Workbenches, Safety & Workwear, Adhesives & Sealants).
 - **Bestsellers section:** 5 product cards with ratings, prices, and discounts.
 - **Why GTHS section:** Trust message, stats, and verification quote.
@@ -39,7 +39,7 @@ The file `gths.html` is a polished, single-page landing page that already includ
 - **Value props section:** Free delivery, genuine guarantee, trade pricing, real advice.
 - **Catalogue Download CTA:** Gated form on the home page for downloading the PDF catalogue.
 - **Footer:** Links, newsletter signup, social links.
-- **Design system:** Industrial dark theme with red accents, stencil display fonts, brushed metal textures, pegboard and blueprint patterns.
+- **Design system:** Industrial dark theme with yellow accents, stencil display fonts, brushed metal textures, pegboard and blueprint patterns.
 - **Responsive:** Mobile hamburger menu, responsive grid layouts.
 
 ---
@@ -137,7 +137,33 @@ Preserve the existing design system. All styles should be consistent with `gths.
 
 ---
 
-## 6. File Structure
+## 6. Drill Penetration Widget
+
+The home page hero includes a self-contained interactive drill animation. It is not a video or GIF — it is rendered live with HTML/CSS, canvas particle effects, and a small amount of vanilla JavaScript.
+
+### 6.1 Files
+
+- `css/drill-widget.css` — All widget styles, themed to match the GTHS yellow-on-black palette.
+- `js/drill-widget.js` — Animation engine, particle system, wall erosion canvas, sound toggle, and controls.
+
+### 6.2 Behavior
+
+- **Start / Stop / Reset:** The yellow trigger button starts the drill. While running, the bit advances into the wall, RPM and depth counters update, and sparks spawn from the contact point. Once the bit breaks through, the status changes to "BREAKTHROUGH" and the button becomes "Reset".
+- **Wall erosion:** The wall is drawn on a `<canvas>` and eroded with `destination-out` compositing as the bit advances, leaving a ragged, growing hole.
+- **Particles:** A second canvas layer renders sparks and breakthrough debris with simple gravity and fade-out.
+- **Sound:** The speaker icon toggles generated drilling noise via the Web Audio API. It is off by default and requires a user gesture.
+- **Reduced motion:** If the user prefers reduced motion, the bit-flute spin animation is disabled via the media query in `drill-widget.css`.
+- **Responsive:** The widget scales to fit the hero-art column and reflows on narrow screens.
+
+### 6.3 Maintenance notes
+
+- The widget is scoped to `.dw-widget` and uses its own CSS custom properties prefixed with `--dw-`. It does not depend on the main site styles, but it uses the same font families.
+- The canvas coordinates are recalculated on resize via `ResizeObserver`. If you add a second widget to a page, change the hardcoded `id` attributes to classes or unique IDs.
+- Audio is created lazily when the user toggles sound or starts drilling. The `AudioContext` is closed and nodes disconnected when sound is turned off or the animation ends.
+
+---
+
+## 7. File Structure
 
 ```
 /
@@ -152,9 +178,11 @@ Preserve the existing design system. All styles should be consistent with `gths.
 │   ├── about.html
 │   └── contact.html
 ├── css/
-│   └── styles.css          (shared styles)
+│   ├── styles.css          (shared styles)
+│   └── drill-widget.css  (hero drill animation styles)
 ├── js/
-│   └── main.js             (shared scripts)
+│   ├── main.js             (shared scripts)
+│   └── drill-widget.js   (hero drill animation engine)
 ├── assets/
 │   ├── images/
 │   │   ├── products/       (product photos)
@@ -172,7 +200,7 @@ Preserve the existing design system. All styles should be consistent with `gths.
 
 ---
 
-## 7. Development Checklist
+## 8. Development Checklist
 
 ### Phase 1: Setup & Cleanup
 - [x] Extract inline CSS from `gths.html` into `css/styles.css`.
@@ -225,7 +253,7 @@ Preserve the existing design system. All styles should be consistent with `gths.
 
 ---
 
-## 8. Important Notes
+## 9. Important Notes
 
 - **Static site only:** This is a static HTML/CSS/JS project. No backend or database is required.
 - **Forms:** Form submissions can be handled via a form backend service (e.g., Formspree, Netlify Forms, Google Forms) or by the client later. Document which approach is used.
@@ -237,7 +265,7 @@ Preserve the existing design system. All styles should be consistent with `gths.
 
 ---
 
-## 9. Timeline
+## 10. Timeline
 
 Phases:
 1. Discovery & Planning
@@ -249,7 +277,7 @@ Phases:
 
 ---
 
-## 10. Quick Start
+## 11. Quick Start
 
 To view the current site locally:
 
@@ -265,7 +293,7 @@ Then open `http://localhost:8000/index.html`.
 
 ---
 
-## 11. Deliverables
+## 12. Deliverables
 
 - [ ] Fully functional static website with all required pages (placeholder pages created).
 - [x] Source code (this repository).

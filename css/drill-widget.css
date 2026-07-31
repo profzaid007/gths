@@ -1,0 +1,311 @@
+/* ==========================================================================
+   Drill Penetration Widget — adapted for GTHS
+   Original behavior preserved; palette swapped to GTHS yellow-on-black.
+   ========================================================================== */
+
+:root{
+  --dw-graphite: #1c1d20;
+  --dw-graphite-hi: #35383e;
+  --dw-steel: #cfd5da;
+  --dw-steel-shadow: #6c7378;
+  --dw-void: #110d0b;
+  --dw-amber: #F1C40F;
+  --dw-amber-dim: #8a611f;
+  --dw-paper: #F2F2F2;
+  --dw-font-display: 'Big Shoulders Display', 'Arial Narrow', sans-serif;
+  --dw-font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --dw-font-body: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.dw-widget, .dw-widget *{ box-sizing: border-box; }
+
+.dw-widget{
+  max-width: 880px;
+  margin: 0 auto;
+  font-family: var(--dw-font-body);
+}
+
+/* ---------- panel / instrument casing ---------- */
+
+.dw-panel{
+  position: relative;
+  background: linear-gradient(165deg, #26282c, #1a1b1e 65%);
+  border: 1px solid #3a3d42;
+  border-radius: 10px;
+  padding: 22px 22px 18px;
+  box-shadow: 0 30px 60px -25px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.04);
+}
+
+.dw-bolt{
+  position: absolute;
+  width: 9px; height: 9px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #dadfe3, #8b9095 45%, #4c4f53 100%);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.6);
+}
+.dw-bolt--tl{ top: 12px; left: 12px; }
+.dw-bolt--tr{ top: 12px; right: 12px; }
+.dw-bolt--bl{ bottom: 12px; left: 12px; }
+.dw-bolt--br{ bottom: 12px; right: 12px; }
+
+/* ---------- nameplate ---------- */
+
+.dw-nameplate{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  padding: 2px 20px 10px;
+}
+.dw-nameplate__title{
+  font-family: var(--dw-font-display);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: clamp(13px, 2.6vw, 17px);
+  color: var(--dw-paper);
+}
+.dw-nameplate__spec{
+  font-family: var(--dw-font-mono);
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  color: #8d9095;
+  white-space: nowrap;
+}
+
+.dw-hazard-stripe{
+  height: 4px;
+  margin: 0 20px 16px;
+  border-radius: 2px;
+  background: repeating-linear-gradient(45deg, var(--dw-amber) 0 8px, #201d16 8px 16px);
+  opacity: 0.85;
+}
+
+/* ---------- scene ---------- */
+
+.dw-scene{
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 8.6;
+  min-height: 240px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: radial-gradient(120% 140% at 22% 20%, #34373d, #202226 60%, #17181b 100%);
+}
+
+.dw-wall-wrap{
+  position: absolute;
+  left: 42%;
+  width: 20%;
+  top: 9%;
+  height: 82%;
+  background: var(--dw-void);
+  box-shadow: inset 0 0 30px rgba(0,0,0,0.6);
+  border-radius: 2px;
+}
+#dwWallCanvas{ position: absolute; inset: 0; display: block; z-index: 1; }
+
+.dw-particle-canvas{
+  position: absolute; inset: 0;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.dw-light-burst{
+  position: absolute;
+  width: 90px; height: 90px;
+  margin-left: -45px;
+  margin-top: -45px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,238,204,0.95), rgba(241,196,15,0.5) 40%, rgba(241,196,15,0) 72%);
+  opacity: 0;
+  transform: scale(0.3);
+  pointer-events: none;
+}
+.dw-light-burst.dw-flash{ animation: dw-burst 0.7s ease-out forwards; }
+@keyframes dw-burst{
+  0%   { opacity: 0; transform: scale(0.2); }
+  18%  { opacity: 1; transform: scale(1.15); }
+  100% { opacity: 0; transform: scale(1.8); }
+}
+
+/* ---------- drill assembly ---------- */
+
+.dw-drill{
+  position: absolute;
+  left: 0; top: 0;
+  width: 300px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  transform: translate(-999px, -999px);
+  filter: drop-shadow(0 6px 10px rgba(0,0,0,0.45));
+}
+.dw-drill__body{
+  position: relative;
+  width: 150px; height: 64px;
+  background: linear-gradient(180deg, var(--dw-graphite-hi), var(--dw-graphite) 55%, #101113 100%);
+  border-radius: 10px 16px 16px 10px;
+  flex-shrink: 0;
+}
+.dw-drill__vent{
+  position: absolute; left: 14px; top: 14px;
+  width: 34px; height: 8px;
+  background: repeating-linear-gradient(90deg, #0c0d0e 0 3px, transparent 3px 6px);
+  opacity: 0.8;
+}
+.dw-drill__grip{
+  position: absolute; left: 20px; bottom: -30px;
+  width: 26px; height: 38px;
+  background: linear-gradient(90deg, #222429, #303338 60%, #222429);
+  border-radius: 6px;
+  transform: rotate(8deg);
+}
+.dw-drill__trigger{
+  position: absolute; left: 50px; top: 22px;
+  width: 20px; height: 10px;
+  background: linear-gradient(180deg, var(--dw-amber), #b9791e);
+  border-radius: 2px 6px 6px 2px;
+}
+.dw-drill__chuck{
+  width: 26px; height: 30px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #e4e8eb, var(--dw-steel-shadow) 55%, #4c5155);
+  clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 92%);
+}
+.dw-drill__bit{
+  position: relative;
+  width: 130px; height: 14px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #eef1f3, var(--dw-steel) 40%, var(--dw-steel-shadow) 80%, #3d4145);
+  border-radius: 0 3px 3px 0;
+  overflow: hidden;
+}
+.dw-drill__flutes{
+  position: absolute; inset: 0;
+  background: repeating-linear-gradient(115deg, rgba(20,22,24,0.35) 0 3px, transparent 3px 11px);
+  animation: dw-spin 90ms linear infinite;
+}
+.dw-drill__tip{
+  position: absolute; right: -9px; top: 0;
+  width: 0; height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 10px solid var(--dw-steel-shadow);
+}
+@keyframes dw-spin{
+  from{ background-position-x: 0; }
+  to{ background-position-x: -56px; }
+}
+
+/* ---------- readout / controls ---------- */
+
+.dw-readout{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px 20px 4px;
+}
+.dw-readout__data{
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-family: var(--dw-font-mono);
+}
+.dw-readout__label{
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #83878c;
+}
+.dw-readout__value{
+  font-size: 16px;
+  color: var(--dw-amber);
+  letter-spacing: 0.02em;
+  min-width: 9ch;
+}
+.dw-readout__status{
+  font-size: 11px;
+  color: #a7abaf;
+  padding-left: 10px;
+  border-left: 1px solid #3a3d42;
+}
+
+.dw-readout__controls{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dw-sound-btn{
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  border: 1px solid #40434a;
+  background: #2a2c30;
+  color: #c7cbd0;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.dw-sound-btn:hover{ background: #34373d; }
+.dw-sound-btn[aria-pressed="true"]{ color: var(--dw-amber); border-color: var(--dw-amber-dim); }
+.dw-sound-btn .dw-mute{ display: none; }
+.dw-sound-btn[aria-pressed="false"] .dw-wave{ display: none; }
+.dw-sound-btn[aria-pressed="true"] .dw-mute{ display: none; }
+.dw-sound-btn[aria-pressed="false"] .dw-mute{ display: inline; }
+
+.dw-trigger-btn{
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px 10px 16px;
+  border-radius: 7px;
+  border: 1px solid #4b3a1c;
+  background: linear-gradient(180deg, #f0ad46, var(--dw-amber) 45%, #b9791e);
+  color: #241a08;
+  font-family: var(--dw-font-body);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  box-shadow: 0 2px 0 #7c5316, 0 6px 14px -6px rgba(232,160,48,0.6);
+  transition: transform 0.08s ease, box-shadow 0.08s ease, filter 0.15s ease;
+}
+.dw-trigger-btn:hover{ filter: brightness(1.05); }
+.dw-trigger-btn:active{ transform: translateY(2px); box-shadow: 0 0 0 #7c5316; }
+.dw-trigger-btn:disabled{ cursor: default; filter: grayscale(0.3) brightness(0.85); }
+.dw-trigger-btn__led{
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: #3a2c10;
+  box-shadow: inset 0 0 2px rgba(0,0,0,0.6);
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+}
+.dw-trigger-btn.dw-active .dw-trigger-btn__led{
+  background: #ff5b3d;
+  box-shadow: 0 0 6px 2px rgba(255,91,61,0.8);
+}
+
+.dw-widget button:focus-visible{
+  outline: 2px solid var(--dw-amber);
+  outline-offset: 2px;
+}
+
+/* ---------- narrow layout ---------- */
+
+.dw-widget.dw-narrow .dw-panel{ padding: 16px 14px 14px; }
+.dw-widget.dw-narrow .dw-nameplate{ padding: 2px 4px 10px; }
+.dw-widget.dw-narrow .dw-hazard-stripe{ margin: 0 4px 14px; }
+.dw-widget.dw-narrow .dw-readout{ padding: 14px 4px 4px; }
+.dw-widget.dw-narrow .dw-drill{ width: 230px; height: 52px; }
+.dw-widget.dw-narrow .dw-drill__body{ width: 112px; height: 52px; }
+.dw-widget.dw-narrow .dw-drill__bit{ width: 96px; height: 11px; }
+
+@media (prefers-reduced-motion: reduce){
+  .dw-drill__flutes{ animation: none; }
+}
