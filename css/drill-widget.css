@@ -306,6 +306,27 @@
 .dw-widget.dw-narrow .dw-drill__body{ width: 112px; height: 52px; }
 .dw-widget.dw-narrow .dw-drill__bit{ width: 96px; height: 11px; }
 
+@media (max-width: 420px){
+  .dw-widget .dw-panel{ padding: 14px 10px 12px; }
+  .dw-widget .dw-nameplate{ flex-direction: column; align-items: flex-start; padding: 2px 2px 8px; gap: 4px; }
+  .dw-widget .dw-nameplate__title{ font-size: 11px; }
+  .dw-widget .dw-nameplate__spec{ font-size: 9px; }
+  .dw-widget .dw-hazard-stripe{ margin: 0 2px 12px; }
+  .dw-widget .dw-scene{ min-height: 150px; }
+  .dw-widget .dw-readout{ flex-direction: column; align-items: stretch; padding: 12px 2px 2px; gap: 10px; }
+  .dw-widget .dw-readout__data{ width: 100%; justify-content: space-between; }
+  .dw-widget .dw-readout__controls{ width: 100%; justify-content: space-between; }
+  .dw-widget .dw-readout__value{ font-size: 14px; min-width: auto; }
+  .dw-widget .dw-trigger-btn{ flex: 1; justify-content: center; padding: 9px 14px 9px 12px; font-size: 12px; }
+  .dw-widget.dw-narrow .dw-drill{ width: 190px; height: 44px; }
+  .dw-widget.dw-narrow .dw-drill__body{ width: 92px; height: 44px; }
+  .dw-widget.dw-narrow .dw-drill__bit{ width: 78px; height: 9px; }
+  .dw-widget.dw-narrow .dw-drill__chuck{ width: 20px; height: 22px; }
+  .dw-widget.dw-narrow .dw-drill__vent{ left: 10px; top: 10px; width: 24px; height: 6px; }
+  .dw-widget.dw-narrow .dw-drill__grip{ left: 18px; bottom: -22px; width: 18px; height: 28px; }
+  .dw-widget.dw-narrow .dw-drill__trigger{ left: 34px; top: 16px; width: 14px; height: 7px; }
+}
+
 @media (prefers-reduced-motion: reduce){
   .dw-drill__flutes{ animation: none; }
 }

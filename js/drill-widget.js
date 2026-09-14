@@ -35,11 +35,6 @@
   var HOLE_RADIUS = 11.5;
   var MAX_PARTICLES = 220;
 
-  var GEOM = {
-    wide:   { body: 150, chuck: 26, bit: 130, tip: 10 },
-    narrow: { body: 112, chuck: 26, bit: 96,  tip: 10 }
-  };
-
   var DPR = Math.min(window.devicePixelRatio || 1, 2);
   var isNarrow = false;
   var sceneRect, wallRect, wallLeft, wallRight, axisY, restX;
@@ -59,7 +54,12 @@
   function easeInQuad(t) { return t * t; }
   function easeOutQuad(t) { return 1 - (1 - t) * (1 - t); }
 
-  function currentGeom() { return isNarrow ? GEOM.narrow : GEOM.wide; }
+  function currentGeom() {
+    var body = drill.querySelector('.dw-drill__body').offsetWidth || 150;
+    var chuck = drill.querySelector('.dw-drill__chuck').offsetWidth || 26;
+    var bit = drill.querySelector('.dw-drill__bit').offsetWidth || 130;
+    return { body: body, chuck: chuck, bit: bit, tip: 10 };
+  }
   function drillTipOffset() {
     var g = currentGeom();
     return g.body + g.chuck + g.bit + g.tip;
@@ -90,7 +90,8 @@
     wallLeft = wallRect.left - sceneRect.left;
     wallRight = wallRect.right - sceneRect.left;
     axisY = (wallRect.top - sceneRect.top) + wallRect.height * 0.5;
-    restX = wallLeft - 70;
+    var g = currentGeom();
+    restX = Math.max(wallLeft - 70, drillTipOffset() - g.body + 30);
 
     particles = [];
     drawWallTexture();
