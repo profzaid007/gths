@@ -228,18 +228,26 @@ h1,h2,h3{font-family:var(--font-display);font-weight:800;line-height:1.02;letter
 .brands-row{display:flex;flex-wrap:wrap;justify-content:center;gap:16px;}
 .brand-tile{
   display:flex;align-items:center;justify-content:center;
-  min-width:190px;min-height:110px;padding:28px 40px;
+  width:200px;height:110px;
   border:1.5px solid rgba(18,18,20,.12);border-radius:4px;
   transition:border-color .15s ease, transform .15s ease, box-shadow .15s ease;
 }
 .brand-tile:hover{border-color:var(--yellow-500);transform:translateY(-3px);box-shadow:0 10px 20px rgba(18,18,20,.08);}
 .brand-tile span{font-family:var(--font-display);font-weight:800;font-size:1.15rem;letter-spacing:.03em;color:var(--ink);opacity:.68;transition:opacity .15s ease, color .15s ease;}
 .brand-tile:hover span{opacity:1;color:var(--yellow-500);}
-.brand-tile img.brand-logo{max-height:70px;max-width:200px;width:auto;height:auto;object-fit:contain;filter:grayscale(1) drop-shadow(0 0 2px rgba(0,0,0,.35));opacity:.65;transition:filter .15s ease, opacity .15s ease;}
+.brand-tile img.brand-logo{max-height:70px;max-width:160px;width:auto;height:auto;object-fit:contain;filter:grayscale(1) drop-shadow(0 0 2px rgba(0,0,0,.35));opacity:.65;transition:filter .15s ease, opacity .15s ease;}
 .brand-tile:hover img.brand-logo{filter:grayscale(0) drop-shadow(0 0 2px rgba(0,0,0,.35));opacity:1;}
+.brand-tile .brand-logo[src$="anchor-by-panasonic.svg"]{transform:scale(1.5);}
+.brand-tile .brand-logo[src$="legrand.svg"]{transform:scale(1.4);}
+.brand-tile .brand-logo[src$="schneider-electric.svg"]{transform:scale(1.25);}
+.brand-tile .brand-logo[src$="saint-gobain.svg"]{transform:scale(1.5);}
+.brand-tile .brand-logo[src$="lt.png"]{transform:scale(2);}
+.brand-tile .brand-logo[src$="philips.svg"]{transform:scale(1.5);}
+.brand-tile .brand-logo[src$="berger-paints.svg"]{transform:scale(1.5);}
+.brand-tile .brand-logo[src$="groz.svg"]{transform:scale(1.4);}
 @media (max-width: 640px){
-  .brand-tile{min-width:140px;min-height:90px;padding:22px 28px;}
-  .brand-tile img.brand-logo{max-height:52px;max-width:150px;}
+  .brand-tile{width:150px;height:90px;}
+  .brand-tile img.brand-logo{max-height:52px;max-width:120px;}
 }
 
 /* ===================== VALUES ===================== */
