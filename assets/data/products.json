@@ -1,0 +1,2530 @@
+{
+  "categories": [
+    {
+      "id": "hand-tools-measuring",
+      "name": "Hand Tools & Measuring Instruments",
+      "subcategories": [
+        {
+          "id": "gauges",
+          "name": "Pressure & Dial Gauges"
+        }
+      ]
+    },
+    {
+      "id": "power-tools-cutting",
+      "name": "Power Tools & Cutting Equipment",
+      "subcategories": [
+        {
+          "id": "power-tools",
+          "name": "Power Tools & Cutters"
+        },
+        {
+          "id": "concrete-equipment",
+          "name": "Concrete Equipment"
+        }
+      ]
+    },
+    {
+      "id": "fasteners-hardware",
+      "name": "Fasteners, Fixings & Hardware",
+      "subcategories": [
+        {
+          "id": "fasteners",
+          "name": "Fasteners & Anchors"
+        },
+        {
+          "id": "iron-steel",
+          "name": "Iron & Steel Hardware"
+        },
+        {
+          "id": "hose-clamps",
+          "name": "Hose Clips & Clamps"
+        }
+      ]
+    },
+    {
+      "id": "electricals-safety",
+      "name": "Electricals & Safety",
+      "subcategories": [
+        {
+          "id": "electricals",
+          "name": "Electrical Accessories"
+        },
+        {
+          "id": "safety-fire",
+          "name": "Safety & Fire Fighting"
+        }
+      ]
+    },
+    {
+      "id": "plumbing-pipes",
+      "name": "Plumbing, Pipes & Fittings",
+      "subcategories": [
+        {
+          "id": "pvc",
+          "name": "PVC Pipes & Fittings"
+        },
+        {
+          "id": "valves-pipe",
+          "name": "Valves & Pipe Fittings"
+        },
+        {
+          "id": "hydraulic",
+          "name": "Hydraulic Valves & Fittings"
+        }
+      ]
+    },
+    {
+      "id": "pneumatics",
+      "name": "Pneumatics & Air Tools",
+      "subcategories": [
+        {
+          "id": "pneumatic-fittings",
+          "name": "Pneumatic Valves & Fittings"
+        }
+      ]
+    },
+    {
+      "id": "adhesives-paints",
+      "name": "Adhesives, Paints & Surface Finishing",
+      "subcategories": [
+        {
+          "id": "adhesives-tapes",
+          "name": "Adhesive Tapes"
+        },
+        {
+          "id": "paints-brushes",
+          "name": "Paints, Sprays & Brushes"
+        }
+      ]
+    },
+    {
+      "id": "material-handling",
+      "name": "Material Handling, Storage & Lifting",
+      "subcategories": [
+        {
+          "id": "lifting-bearings",
+          "name": "Lifting Equipment & Bearings"
+        },
+        {
+          "id": "trolleys-storage",
+          "name": "Trolleys, Wheels & Storage"
+        },
+        {
+          "id": "housekeeping",
+          "name": "Housekeeping Products"
+        }
+      ]
+    },
+    {
+      "id": "welding-metalworking",
+      "name": "Welding & Metalworking",
+      "subcategories": [
+        {
+          "id": "welding",
+          "name": "Welding Equipment & Consumables"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "product-335",
+      "name": "Bourdon Tube Pressure Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-335.png",
+      "description": "Reliable Bourdon Tube Pressure Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-336",
+      "name": "Analog Dial Pressure Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-336.png",
+      "description": "Reliable Analog Dial Pressure Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-337",
+      "name": "Stainless Steel Pressure Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-337.png",
+      "description": "Reliable Stainless Steel Pressure Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-338",
+      "name": "Industrial Process Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-338.png",
+      "description": "Reliable Industrial Process Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-339",
+      "name": "Dry Utility Pressure Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-339.png",
+      "description": "Reliable Dry Utility Pressure Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-340",
+      "name": "Liquid-Filled Pressure Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-340.png",
+      "description": "Reliable Liquid-Filled Pressure Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-341",
+      "name": "Compound Pressure Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-341.png",
+      "description": "Reliable Compound Pressure Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-343",
+      "name": "Vacuum Pressure Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-343.png",
+      "description": "Reliable Vacuum Pressure Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-344",
+      "name": "Digital Pressure Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-344.png",
+      "description": "Reliable Digital Pressure Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-345",
+      "name": "Differential Pressure Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-345.png",
+      "description": "Reliable Differential Pressure Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-347",
+      "name": "Test Gauge with Calibration",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-347.png",
+      "description": "Reliable Test Gauge with Calibration built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-348",
+      "name": "Panel Mount Pressure Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-348.png",
+      "description": "Reliable Panel Mount Pressure Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-349",
+      "name": "Bottom Connection Pressure Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-349.png",
+      "description": "Reliable Bottom Connection Pressure Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-350",
+      "name": "Center Back Mount Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-350.png",
+      "description": "Reliable Center Back Mount Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-351",
+      "name": "Precision Measurement Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-351.png",
+      "description": "Reliable Precision Measurement Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-352",
+      "name": "Heavy-Duty Industrial Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-352.png",
+      "description": "Reliable Heavy-Duty Industrial Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-353",
+      "name": "Low-Pressure Diaphragm Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-353.png",
+      "description": "Reliable Low-Pressure Diaphragm Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-354",
+      "name": "High-Pressure Hydraulic Gauge",
+      "category": "hand-tools-measuring",
+      "categoryName": "Hand Tools & Measuring Instruments",
+      "subcategory": "gauges",
+      "subcategoryName": "Pressure & Dial Gauges",
+      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-354.png",
+      "description": "Reliable High-Pressure Hydraulic Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-143",
+      "name": "Corded Angle Grinder",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "power-tools",
+      "subcategoryName": "Power Tools & Cutters",
+      "image": "/assets/images/products/catalogue/power_tools_cutting_tools/product-143.png",
+      "description": "Professional-grade Corded Angle Grinder engineered for high-performance cutting, grinding, and drilling jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-144",
+      "name": "Brushless Cordless Drill",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "power-tools",
+      "subcategoryName": "Power Tools & Cutters",
+      "image": "/assets/images/products/catalogue/power_tools_cutting_tools/product-144.png",
+      "description": "Professional-grade Brushless Cordless Drill engineered for high-performance cutting, grinding, and drilling jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-145",
+      "name": "Impact Driver Kit",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "power-tools",
+      "subcategoryName": "Power Tools & Cutters",
+      "image": "/assets/images/products/catalogue/power_tools_cutting_tools/product-145.png",
+      "description": "Professional-grade Impact Driver Kit engineered for high-performance cutting, grinding, and drilling jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-149",
+      "name": "Rotary Hammer Drill",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "power-tools",
+      "subcategoryName": "Power Tools & Cutters",
+      "image": "/assets/images/products/catalogue/power_tools_cutting_tools/product-149.png",
+      "description": "Professional-grade Rotary Hammer Drill engineered for high-performance cutting, grinding, and drilling jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-150",
+      "name": "Electric Circular Saw",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "power-tools",
+      "subcategoryName": "Power Tools & Cutters",
+      "image": "/assets/images/products/catalogue/power_tools_cutting_tools/product-150.png",
+      "description": "Professional-grade Electric Circular Saw engineered for high-performance cutting, grinding, and drilling jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-152",
+      "name": "Jigsaw Machine",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "power-tools",
+      "subcategoryName": "Power Tools & Cutters",
+      "image": "/assets/images/products/catalogue/power_tools_cutting_tools/product-152.png",
+      "description": "Professional-grade Jigsaw Machine engineered for high-performance cutting, grinding, and drilling jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-156",
+      "name": "Bench Grinder",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "power-tools",
+      "subcategoryName": "Power Tools & Cutters",
+      "image": "/assets/images/products/catalogue/power_tools_cutting_tools/product-156.png",
+      "description": "Professional-grade Bench Grinder engineered for high-performance cutting, grinding, and drilling jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-158",
+      "name": "Cut-Off Machine",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "power-tools",
+      "subcategoryName": "Power Tools & Cutters",
+      "image": "/assets/images/products/catalogue/power_tools_cutting_tools/product-158.png",
+      "description": "Professional-grade Cut-Off Machine engineered for high-performance cutting, grinding, and drilling jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-159",
+      "name": "Demolition Hammer",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "power-tools",
+      "subcategoryName": "Power Tools & Cutters",
+      "image": "/assets/images/products/catalogue/power_tools_cutting_tools/product-159.png",
+      "description": "Professional-grade Demolition Hammer engineered for high-performance cutting, grinding, and drilling jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-161",
+      "name": "Electric Planer",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "power-tools",
+      "subcategoryName": "Power Tools & Cutters",
+      "image": "/assets/images/products/catalogue/power_tools_cutting_tools/product-161.png",
+      "description": "Professional-grade Electric Planer engineered for high-performance cutting, grinding, and drilling jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-162",
+      "name": "Die Grinder",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "power-tools",
+      "subcategoryName": "Power Tools & Cutters",
+      "image": "/assets/images/products/catalogue/power_tools_cutting_tools/product-162.png",
+      "description": "Professional-grade Die Grinder engineered for high-performance cutting, grinding, and drilling jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-163",
+      "name": "Cordless Combi Drill",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "power-tools",
+      "subcategoryName": "Power Tools & Cutters",
+      "image": "/assets/images/products/catalogue/power_tools_cutting_tools/product-163.png",
+      "description": "Professional-grade Cordless Combi Drill engineered for high-performance cutting, grinding, and drilling jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-361",
+      "name": "Portable Concrete Mixer",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "concrete-equipment",
+      "subcategoryName": "Concrete Equipment",
+      "image": "/assets/images/products/catalogue/concrete_mixer_vibrator_vibrating_needle/product-361.png",
+      "description": "Durable Portable Concrete Mixer designed for efficient concrete mixing, compaction, and construction site use.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-362",
+      "name": "Electric Concrete Vibrator",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "concrete-equipment",
+      "subcategoryName": "Concrete Equipment",
+      "image": "/assets/images/products/catalogue/concrete_mixer_vibrator_vibrating_needle/product-362.png",
+      "description": "Durable Electric Concrete Vibrator designed for efficient concrete mixing, compaction, and construction site use.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-363",
+      "name": "Vibrating Needle Poker",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "concrete-equipment",
+      "subcategoryName": "Concrete Equipment",
+      "image": "/assets/images/products/catalogue/concrete_mixer_vibrator_vibrating_needle/product-363.png",
+      "description": "Durable Vibrating Needle Poker designed for efficient concrete mixing, compaction, and construction site use.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-364",
+      "name": "Concrete Vibrator Motor",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "concrete-equipment",
+      "subcategoryName": "Concrete Equipment",
+      "image": "/assets/images/products/catalogue/concrete_mixer_vibrator_vibrating_needle/product-364.png",
+      "description": "Durable Concrete Vibrator Motor designed for efficient concrete mixing, compaction, and construction site use.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-365",
+      "name": "Needle Vibrator Shaft",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "concrete-equipment",
+      "subcategoryName": "Concrete Equipment",
+      "image": "/assets/images/products/catalogue/concrete_mixer_vibrator_vibrating_needle/product-365.png",
+      "description": "Durable Needle Vibrator Shaft designed for efficient concrete mixing, compaction, and construction site use.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-366",
+      "name": "Mini Concrete Mixer",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "concrete-equipment",
+      "subcategoryName": "Concrete Equipment",
+      "image": "/assets/images/products/catalogue/concrete_mixer_vibrator_vibrating_needle/product-366.png",
+      "description": "Durable Mini Concrete Mixer designed for efficient concrete mixing, compaction, and construction site use.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-367",
+      "name": "Hand-Held Concrete Vibrator",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "concrete-equipment",
+      "subcategoryName": "Concrete Equipment",
+      "image": "/assets/images/products/catalogue/concrete_mixer_vibrator_vibrating_needle/product-367.png",
+      "description": "Durable Hand-Held Concrete Vibrator designed for efficient concrete mixing, compaction, and construction site use.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-368",
+      "name": "Vibrator Flexible Shaft",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "concrete-equipment",
+      "subcategoryName": "Concrete Equipment",
+      "image": "/assets/images/products/catalogue/concrete_mixer_vibrator_vibrating_needle/product-368.png",
+      "description": "Durable Vibrator Flexible Shaft designed for efficient concrete mixing, compaction, and construction site use.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-369",
+      "name": "Concrete Compaction Needle",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "concrete-equipment",
+      "subcategoryName": "Concrete Equipment",
+      "image": "/assets/images/products/catalogue/concrete_mixer_vibrator_vibrating_needle/product-369.png",
+      "description": "Durable Concrete Compaction Needle designed for efficient concrete mixing, compaction, and construction site use.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-370",
+      "name": "Heavy-Duty Mixer Drum",
+      "category": "power-tools-cutting",
+      "categoryName": "Power Tools & Cutting Equipment",
+      "subcategory": "concrete-equipment",
+      "subcategoryName": "Concrete Equipment",
+      "image": "/assets/images/products/catalogue/concrete_mixer_vibrator_vibrating_needle/product-370.png",
+      "description": "Durable Heavy-Duty Mixer Drum designed for efficient concrete mixing, compaction, and construction site use.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-166",
+      "name": "Expansion Anchor Set",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-166.png",
+      "description": "High-strength Expansion Anchor Set for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-167",
+      "name": "Sleeve Anchor Bolt",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-167.png",
+      "description": "High-strength Sleeve Anchor Bolt for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-168",
+      "name": "Wedge Anchor Fastener",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-168.png",
+      "description": "High-strength Wedge Anchor Fastener for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-169",
+      "name": "Drop-In Anchor",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-169.png",
+      "description": "High-strength Drop-In Anchor for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-171",
+      "name": "Hook Eye Anchor Bolt",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-171.png",
+      "description": "High-strength Hook Eye Anchor Bolt for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-172",
+      "name": "Rawl Bolt Fastener",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-172.png",
+      "description": "High-strength Rawl Bolt Fastener for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-173",
+      "name": "Through Bolt Anchor",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-173.png",
+      "description": "High-strength Through Bolt Anchor for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-174",
+      "name": "Concrete Screw Anchor",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-174.png",
+      "description": "High-strength Concrete Screw Anchor for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-175",
+      "name": "Toggle Bolt Anchor",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-175.png",
+      "description": "High-strength Toggle Bolt Anchor for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-176",
+      "name": "Chemical Anchor Stud",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-176.png",
+      "description": "High-strength Chemical Anchor Stud for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-177",
+      "name": "L-Anchor Foundation Bolt",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-177.png",
+      "description": "High-strength L-Anchor Foundation Bolt for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-178",
+      "name": "U-Bolt Clamp",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-178.png",
+      "description": "High-strength U-Bolt Clamp for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-183",
+      "name": "Threaded Rod Set",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-183.png",
+      "description": "High-strength Threaded Rod Set for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-184",
+      "name": "Hex Nut & Washer Kit",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-184.png",
+      "description": "High-strength Hex Nut & Washer Kit for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-185",
+      "name": "Spring Toggle Anchor",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "fasteners",
+      "subcategoryName": "Fasteners & Anchors",
+      "image": "/assets/images/products/catalogue/fasteners/product-185.png",
+      "description": "High-strength Spring Toggle Anchor for secure fixing in concrete, masonry, and structural applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-067",
+      "name": "Mild Steel Angle",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "iron-steel",
+      "subcategoryName": "Iron & Steel Hardware",
+      "image": "/assets/images/products/catalogue/iron_steel/product-067.png",
+      "description": "Rugged Mild Steel Angle suitable for fabrication, construction, and general hardware applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-068",
+      "name": "Galvanized Iron Pipe",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "iron-steel",
+      "subcategoryName": "Iron & Steel Hardware",
+      "image": "/assets/images/products/catalogue/iron_steel/product-068.png",
+      "description": "Rugged Galvanized Iron Pipe suitable for fabrication, construction, and general hardware applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-069",
+      "name": "Steel Flat Bar",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "iron-steel",
+      "subcategoryName": "Iron & Steel Hardware",
+      "image": "/assets/images/products/catalogue/iron_steel/product-069.png",
+      "description": "Rugged Steel Flat Bar suitable for fabrication, construction, and general hardware applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-070",
+      "name": "MS Round Bar",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "iron-steel",
+      "subcategoryName": "Iron & Steel Hardware",
+      "image": "/assets/images/products/catalogue/iron_steel/product-070.png",
+      "description": "Rugged MS Round Bar suitable for fabrication, construction, and general hardware applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-071",
+      "name": "Threaded Steel Rod",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "iron-steel",
+      "subcategoryName": "Iron & Steel Hardware",
+      "image": "/assets/images/products/catalogue/iron_steel/product-071.png",
+      "description": "Rugged Threaded Steel Rod suitable for fabrication, construction, and general hardware applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-072",
+      "name": "Steel Channel Section",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "iron-steel",
+      "subcategoryName": "Iron & Steel Hardware",
+      "image": "/assets/images/products/catalogue/iron_steel/product-072.png",
+      "description": "Rugged Steel Channel Section suitable for fabrication, construction, and general hardware applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-073",
+      "name": "TMT Steel Bar",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "iron-steel",
+      "subcategoryName": "Iron & Steel Hardware",
+      "image": "/assets/images/products/catalogue/iron_steel/product-073.png",
+      "description": "Rugged TMT Steel Bar suitable for fabrication, construction, and general hardware applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-074",
+      "name": "Steel Wire Rope",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "iron-steel",
+      "subcategoryName": "Iron & Steel Hardware",
+      "image": "/assets/images/products/catalogue/iron_steel/product-074.png",
+      "description": "Rugged Steel Wire Rope suitable for fabrication, construction, and general hardware applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-075",
+      "name": "Iron Hinge Set",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "iron-steel",
+      "subcategoryName": "Iron & Steel Hardware",
+      "image": "/assets/images/products/catalogue/iron_steel/product-075.png",
+      "description": "Rugged Iron Hinge Set suitable for fabrication, construction, and general hardware applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-076",
+      "name": "Steel Bracket Support",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "iron-steel",
+      "subcategoryName": "Iron & Steel Hardware",
+      "image": "/assets/images/products/catalogue/iron_steel/product-076.png",
+      "description": "Rugged Steel Bracket Support suitable for fabrication, construction, and general hardware applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-186",
+      "name": "Worm Drive Hose Clamp",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-186.png",
+      "description": "Reliable Worm Drive Hose Clamp for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-187",
+      "name": "Stainless Steel Hose Clip",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-187.png",
+      "description": "Reliable Stainless Steel Hose Clip for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-188",
+      "name": "T-Bolt Hose Clamp",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-188.png",
+      "description": "Reliable T-Bolt Hose Clamp for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-189",
+      "name": "Spring Hose Clamp",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-189.png",
+      "description": "Reliable Spring Hose Clamp for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-190",
+      "name": "Ear Clamp Assortment",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-190.png",
+      "description": "Reliable Ear Clamp Assortment for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-191",
+      "name": "Heavy-Duty Hose Clamp",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-191.png",
+      "description": "Reliable Heavy-Duty Hose Clamp for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-192",
+      "name": "Mini Hose Clip",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-192.png",
+      "description": "Reliable Mini Hose Clip for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-193",
+      "name": "Double Wire Hose Clamp",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-193.png",
+      "description": "Reliable Double Wire Hose Clamp for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-194",
+      "name": "Constant Tension Clamp",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-194.png",
+      "description": "Reliable Constant Tension Clamp for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-195",
+      "name": "Fuel Injection Hose Clamp",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-195.png",
+      "description": "Reliable Fuel Injection Hose Clamp for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-196",
+      "name": "Silicone Hose Clamp",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-196.png",
+      "description": "Reliable Silicone Hose Clamp for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-197",
+      "name": "PVC Hose Pipe",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-197.png",
+      "description": "Reliable PVC Hose Pipe for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-198",
+      "name": "Flexible Rubber Hose",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-198.png",
+      "description": "Reliable Flexible Rubber Hose for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-199",
+      "name": "High-Pressure Hydraulic Hose",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-199.png",
+      "description": "Reliable High-Pressure Hydraulic Hose for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-200",
+      "name": "Corrugated Suction Hose",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-200.png",
+      "description": "Reliable Corrugated Suction Hose for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-201",
+      "name": "Braided Air Hose",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-201.png",
+      "description": "Reliable Braided Air Hose for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-202",
+      "name": "Garden Water Hose",
+      "category": "fasteners-hardware",
+      "categoryName": "Fasteners, Fixings & Hardware",
+      "subcategory": "hose-clamps",
+      "subcategoryName": "Hose Clips & Clamps",
+      "image": "/assets/images/products/catalogue/hose_hose_clamps/product-202.png",
+      "description": "Reliable Garden Water Hose for leak-proof hose connections in plumbing, automotive, and industrial setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-134",
+      "name": "Industrial Switch Socket",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "electricals",
+      "subcategoryName": "Electrical Accessories",
+      "image": "/assets/images/products/catalogue/electricals/product-134.png",
+      "description": "Safe and compliant Industrial Switch Socket for residential, commercial, and industrial electrical installations.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-135",
+      "name": "MCB Circuit Breaker",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "electricals",
+      "subcategoryName": "Electrical Accessories",
+      "image": "/assets/images/products/catalogue/electricals/product-135.png",
+      "description": "Safe and compliant MCB Circuit Breaker for residential, commercial, and industrial electrical installations.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-136",
+      "name": "RCCB Residual Current Breaker",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "electricals",
+      "subcategoryName": "Electrical Accessories",
+      "image": "/assets/images/products/catalogue/electricals/product-136.png",
+      "description": "Safe and compliant RCCB Residual Current Breaker for residential, commercial, and industrial electrical installations.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-137",
+      "name": "Modular Switch Plate",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "electricals",
+      "subcategoryName": "Electrical Accessories",
+      "image": "/assets/images/products/catalogue/electricals/product-137.png",
+      "description": "Safe and compliant Modular Switch Plate for residential, commercial, and industrial electrical installations.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-138",
+      "name": "Cable Tray Section",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "electricals",
+      "subcategoryName": "Electrical Accessories",
+      "image": "/assets/images/products/catalogue/electricals/product-138.png",
+      "description": "Safe and compliant Cable Tray Section for residential, commercial, and industrial electrical installations.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-140",
+      "name": "PVC Electrical Conduit",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "electricals",
+      "subcategoryName": "Electrical Accessories",
+      "image": "/assets/images/products/catalogue/electricals/product-140.png",
+      "description": "Safe and compliant PVC Electrical Conduit for residential, commercial, and industrial electrical installations.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-141",
+      "name": "Cable Gland Pack",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "electricals",
+      "subcategoryName": "Electrical Accessories",
+      "image": "/assets/images/products/catalogue/electricals/product-141.png",
+      "description": "Safe and compliant Cable Gland Pack for residential, commercial, and industrial electrical installations.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-142",
+      "name": "Terminal Block Strip",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "electricals",
+      "subcategoryName": "Electrical Accessories",
+      "image": "/assets/images/products/catalogue/electricals/product-142.png",
+      "description": "Safe and compliant Terminal Block Strip for residential, commercial, and industrial electrical installations.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-093",
+      "name": "ABC Dry Powder Fire Extinguisher",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-093.png",
+      "description": "Essential ABC Dry Powder Fire Extinguisher to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-094",
+      "name": "CO2 Fire Extinguisher",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-094.png",
+      "description": "Essential CO2 Fire Extinguisher to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-095",
+      "name": "Foam Fire Extinguisher",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-095.png",
+      "description": "Essential Foam Fire Extinguisher to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-096",
+      "name": "Safety Helmet",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-096.png",
+      "description": "Essential Safety Helmet to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-097",
+      "name": "Industrial Safety Shoe",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-097.png",
+      "description": "Essential Industrial Safety Shoe to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-098",
+      "name": "Cut-Resistant Safety Gloves",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-098.png",
+      "description": "Essential Cut-Resistant Safety Gloves to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-099",
+      "name": "Welding Hand Shield",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-099.png",
+      "description": "Essential Welding Hand Shield to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-100",
+      "name": "Safety Goggles",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-100.png",
+      "description": "Essential Safety Goggles to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-101",
+      "name": "Ear Muff Protector",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-101.png",
+      "description": "Essential Ear Muff Protector to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-102",
+      "name": "Dust Respirator Mask",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-102.png",
+      "description": "Essential Dust Respirator Mask to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-103",
+      "name": "Safety Harness Kit",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-103.png",
+      "description": "Essential Safety Harness Kit to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-104",
+      "name": "Reflective Safety Vest",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-104.png",
+      "description": "Essential Reflective Safety Vest to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-105",
+      "name": "First Aid Box",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-105.png",
+      "description": "Essential First Aid Box to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-106",
+      "name": "Emergency Exit Sign",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-106.png",
+      "description": "Essential Emergency Exit Sign to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-107",
+      "name": "Fire Safety Blanket",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-107.png",
+      "description": "Essential Fire Safety Blanket to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-108",
+      "name": "Smoke Detector Alarm",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-108.png",
+      "description": "Essential Smoke Detector Alarm to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-109",
+      "name": "Safety Cone Set",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-109.png",
+      "description": "Essential Safety Cone Set to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-110",
+      "name": "Fire Hose Reel",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-110.png",
+      "description": "Essential Fire Hose Reel to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-111",
+      "name": "ABC Dry Powder Fire Extinguisher \u2014 Variant 2",
+      "category": "electricals-safety",
+      "categoryName": "Electricals & Safety",
+      "subcategory": "safety-fire",
+      "subcategoryName": "Safety & Fire Fighting",
+      "image": "/assets/images/products/catalogue/safety_fire_fighting_products/product-111.png",
+      "description": "Essential ABC Dry Powder Fire Extinguisher to protect workers and premises across industrial and commercial environments.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-047",
+      "name": "UPVC Pressure Pipe",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "pvc",
+      "subcategoryName": "PVC Pipes & Fittings",
+      "image": "/assets/images/products/catalogue/pvc_pipes_fittings/product-047.png",
+      "description": "Durable UPVC Pressure Pipe for water supply, drainage, and plumbing systems with leak-proof joints.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-048",
+      "name": "PVC Elbow Fitting",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "pvc",
+      "subcategoryName": "PVC Pipes & Fittings",
+      "image": "/assets/images/products/catalogue/pvc_pipes_fittings/product-048.png",
+      "description": "Durable PVC Elbow Fitting for water supply, drainage, and plumbing systems with leak-proof joints.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-049",
+      "name": "PVC Tee Connector",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "pvc",
+      "subcategoryName": "PVC Pipes & Fittings",
+      "image": "/assets/images/products/catalogue/pvc_pipes_fittings/product-049.png",
+      "description": "Durable PVC Tee Connector for water supply, drainage, and plumbing systems with leak-proof joints.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-054",
+      "name": "Brass Gate Valve",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "valves-pipe",
+      "subcategoryName": "Valves & Pipe Fittings",
+      "image": "/assets/images/products/catalogue/valves_pipe_pipe_fittings/product-054.png",
+      "description": "Precision-engineered Brass Gate Valve for reliable flow control in plumbing and process pipelines.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-055",
+      "name": "Globe Control Valve",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "valves-pipe",
+      "subcategoryName": "Valves & Pipe Fittings",
+      "image": "/assets/images/products/catalogue/valves_pipe_pipe_fittings/product-055.png",
+      "description": "Precision-engineered Globe Control Valve for reliable flow control in plumbing and process pipelines.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-056",
+      "name": "Ball Valve Full Bore",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "valves-pipe",
+      "subcategoryName": "Valves & Pipe Fittings",
+      "image": "/assets/images/products/catalogue/valves_pipe_pipe_fittings/product-056.png",
+      "description": "Precision-engineered Ball Valve Full Bore for reliable flow control in plumbing and process pipelines.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-058",
+      "name": "Butterfly Valve",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "valves-pipe",
+      "subcategoryName": "Valves & Pipe Fittings",
+      "image": "/assets/images/products/catalogue/valves_pipe_pipe_fittings/product-058.png",
+      "description": "Precision-engineered Butterfly Valve for reliable flow control in plumbing and process pipelines.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-059",
+      "name": "Non-Return Check Valve",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "valves-pipe",
+      "subcategoryName": "Valves & Pipe Fittings",
+      "image": "/assets/images/products/catalogue/valves_pipe_pipe_fittings/product-059.png",
+      "description": "Precision-engineered Non-Return Check Valve for reliable flow control in plumbing and process pipelines.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-060",
+      "name": "Y-Strainer Filter",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "valves-pipe",
+      "subcategoryName": "Valves & Pipe Fittings",
+      "image": "/assets/images/products/catalogue/valves_pipe_pipe_fittings/product-060.png",
+      "description": "Precision-engineered Y-Strainer Filter for reliable flow control in plumbing and process pipelines.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-061",
+      "name": "Foot Valve Assembly",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "valves-pipe",
+      "subcategoryName": "Valves & Pipe Fittings",
+      "image": "/assets/images/products/catalogue/valves_pipe_pipe_fittings/product-061.png",
+      "description": "Precision-engineered Foot Valve Assembly for reliable flow control in plumbing and process pipelines.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-240",
+      "name": "Hydraulic Directional Control Valve",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "hydraulic",
+      "subcategoryName": "Hydraulic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/hydraulic_valves_fittings/product-240.png",
+      "description": "Heavy-duty Hydraulic Directional Control Valve designed for high-pressure hydraulic circuits and mobile machinery.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-241",
+      "name": "Hydraulic Pressure Relief Valve",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "hydraulic",
+      "subcategoryName": "Hydraulic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/hydraulic_valves_fittings/product-241.png",
+      "description": "Heavy-duty Hydraulic Pressure Relief Valve designed for high-pressure hydraulic circuits and mobile machinery.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-242",
+      "name": "Hydraulic Flow Control Valve",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "hydraulic",
+      "subcategoryName": "Hydraulic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/hydraulic_valves_fittings/product-242.png",
+      "description": "Heavy-duty Hydraulic Flow Control Valve designed for high-pressure hydraulic circuits and mobile machinery.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-243",
+      "name": "Hydraulic Cylinder Fitting",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "hydraulic",
+      "subcategoryName": "Hydraulic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/hydraulic_valves_fittings/product-243.png",
+      "description": "Heavy-duty Hydraulic Cylinder Fitting designed for high-pressure hydraulic circuits and mobile machinery.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-244",
+      "name": "Hydraulic Hose Fitting",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "hydraulic",
+      "subcategoryName": "Hydraulic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/hydraulic_valves_fittings/product-244.png",
+      "description": "Heavy-duty Hydraulic Hose Fitting designed for high-pressure hydraulic circuits and mobile machinery.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-245",
+      "name": "Hydraulic Adapter",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "hydraulic",
+      "subcategoryName": "Hydraulic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/hydraulic_valves_fittings/product-245.png",
+      "description": "Heavy-duty Hydraulic Adapter designed for high-pressure hydraulic circuits and mobile machinery.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-246",
+      "name": "Hydraulic Quick Coupler",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "hydraulic",
+      "subcategoryName": "Hydraulic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/hydraulic_valves_fittings/product-246.png",
+      "description": "Heavy-duty Hydraulic Quick Coupler designed for high-pressure hydraulic circuits and mobile machinery.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-247",
+      "name": "Hydraulic Manifold Block",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "hydraulic",
+      "subcategoryName": "Hydraulic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/hydraulic_valves_fittings/product-247.png",
+      "description": "Heavy-duty Hydraulic Manifold Block designed for high-pressure hydraulic circuits and mobile machinery.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-280",
+      "name": "Hydraulic Check Valve",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "hydraulic",
+      "subcategoryName": "Hydraulic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/hydraulic_valves_fittings/product-280.png",
+      "description": "Heavy-duty Hydraulic Check Valve designed for high-pressure hydraulic circuits and mobile machinery.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-282",
+      "name": "Hydraulic Rotary Union",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "hydraulic",
+      "subcategoryName": "Hydraulic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/hydraulic_valves_fittings/product-282.png",
+      "description": "Heavy-duty Hydraulic Rotary Union designed for high-pressure hydraulic circuits and mobile machinery.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-288",
+      "name": "Hydraulic Filter Element",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "hydraulic",
+      "subcategoryName": "Hydraulic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/hydraulic_valves_fittings/product-288.png",
+      "description": "Heavy-duty Hydraulic Filter Element designed for high-pressure hydraulic circuits and mobile machinery.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-289",
+      "name": "Hydraulic Accumulator",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "hydraulic",
+      "subcategoryName": "Hydraulic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/hydraulic_valves_fittings/product-289.png",
+      "description": "Heavy-duty Hydraulic Accumulator designed for high-pressure hydraulic circuits and mobile machinery.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-290",
+      "name": "Hydraulic Seal Kit",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "hydraulic",
+      "subcategoryName": "Hydraulic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/hydraulic_valves_fittings/product-290.png",
+      "description": "Heavy-duty Hydraulic Seal Kit designed for high-pressure hydraulic circuits and mobile machinery.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-298",
+      "name": "Hydraulic Gauge Port",
+      "category": "plumbing-pipes",
+      "categoryName": "Plumbing, Pipes & Fittings",
+      "subcategory": "hydraulic",
+      "subcategoryName": "Hydraulic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/hydraulic_valves_fittings/product-298.png",
+      "description": "Heavy-duty Hydraulic Gauge Port designed for high-pressure hydraulic circuits and mobile machinery.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-226",
+      "name": "Pneumatic Solenoid Valve",
+      "category": "pneumatics",
+      "categoryName": "Pneumatics & Air Tools",
+      "subcategory": "pneumatic-fittings",
+      "subcategoryName": "Pneumatic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/pneumatic_valves_fittings/product-226.png",
+      "description": "High-flow Pneumatic Solenoid Valve for clean, efficient compressed-air systems and automation setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-227",
+      "name": "Air Filter Regulator",
+      "category": "pneumatics",
+      "categoryName": "Pneumatics & Air Tools",
+      "subcategory": "pneumatic-fittings",
+      "subcategoryName": "Pneumatic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/pneumatic_valves_fittings/product-227.png",
+      "description": "High-flow Air Filter Regulator for clean, efficient compressed-air systems and automation setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-228",
+      "name": "Pneumatic Quick Fitting",
+      "category": "pneumatics",
+      "categoryName": "Pneumatics & Air Tools",
+      "subcategory": "pneumatic-fittings",
+      "subcategoryName": "Pneumatic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/pneumatic_valves_fittings/product-228.png",
+      "description": "High-flow Pneumatic Quick Fitting for clean, efficient compressed-air systems and automation setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-229",
+      "name": "Air Cylinder",
+      "category": "pneumatics",
+      "categoryName": "Pneumatics & Air Tools",
+      "subcategory": "pneumatic-fittings",
+      "subcategoryName": "Pneumatic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/pneumatic_valves_fittings/product-229.png",
+      "description": "High-flow Air Cylinder for clean, efficient compressed-air systems and automation setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-230",
+      "name": "Pneumatic Directional Valve",
+      "category": "pneumatics",
+      "categoryName": "Pneumatics & Air Tools",
+      "subcategory": "pneumatic-fittings",
+      "subcategoryName": "Pneumatic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/pneumatic_valves_fittings/product-230.png",
+      "description": "High-flow Pneumatic Directional Valve for clean, efficient compressed-air systems and automation setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-231",
+      "name": "Pneumatic Silencer",
+      "category": "pneumatics",
+      "categoryName": "Pneumatics & Air Tools",
+      "subcategory": "pneumatic-fittings",
+      "subcategoryName": "Pneumatic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/pneumatic_valves_fittings/product-231.png",
+      "description": "High-flow Pneumatic Silencer for clean, efficient compressed-air systems and automation setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-232",
+      "name": "Air Hose Fitting",
+      "category": "pneumatics",
+      "categoryName": "Pneumatics & Air Tools",
+      "subcategory": "pneumatic-fittings",
+      "subcategoryName": "Pneumatic Valves & Fittings",
+      "image": "/assets/images/products/catalogue/pneumatic_valves_fittings/product-232.png",
+      "description": "High-flow Air Hose Fitting for clean, efficient compressed-air systems and automation setups.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-248",
+      "name": "Masking Tape Roll",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-248.png",
+      "description": "Versatile Masking Tape Roll for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-249",
+      "name": "Double-Sided Foam Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-249.png",
+      "description": "Versatile Double-Sided Foam Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-250",
+      "name": "Electrical Insulation Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-250.png",
+      "description": "Versatile Electrical Insulation Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-251",
+      "name": "Duct Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-251.png",
+      "description": "Versatile Duct Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-252",
+      "name": "Teflon Thread Seal Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-252.png",
+      "description": "Versatile Teflon Thread Seal Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-253",
+      "name": "Anti-Skid Grip Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-253.png",
+      "description": "Versatile Anti-Skid Grip Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-254",
+      "name": "Aluminum Foil Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-254.png",
+      "description": "Versatile Aluminum Foil Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-255",
+      "name": "Cable Tie Roll",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-255.png",
+      "description": "Versatile Cable Tie Roll for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-256",
+      "name": "Packing Tape Dispenser",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-256.png",
+      "description": "Versatile Packing Tape Dispenser for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-257",
+      "name": "Transparent BOPP Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-257.png",
+      "description": "Versatile Transparent BOPP Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-258",
+      "name": "Heavy-Duty Cloth Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-258.png",
+      "description": "Versatile Heavy-Duty Cloth Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-259",
+      "name": "Warning Hazard Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-259.png",
+      "description": "Versatile Warning Hazard Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-260",
+      "name": "Kapton Polyimide Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-260.png",
+      "description": "Versatile Kapton Polyimide Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-261",
+      "name": "PVC Insulation Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-261.png",
+      "description": "Versatile PVC Insulation Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-263",
+      "name": "Surface Protection Film",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-263.png",
+      "description": "Versatile Surface Protection Film for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-264",
+      "name": "EVA Foam Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-264.png",
+      "description": "Versatile EVA Foam Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-265",
+      "name": "Painter's Masking Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-265.png",
+      "description": "Versatile Painter's Masking Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-267",
+      "name": "Neoprene Foam Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-267.png",
+      "description": "Versatile Neoprene Foam Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-268",
+      "name": "Double-Sided Tissue Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-268.png",
+      "description": "Versatile Double-Sided Tissue Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-270",
+      "name": "Copper Foil Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-270.png",
+      "description": "Versatile Copper Foil Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-271",
+      "name": "Acrylic Foam Tape",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "adhesives-tapes",
+      "subcategoryName": "Adhesive Tapes",
+      "image": "/assets/images/products/catalogue/adhesive_plastic_tapes/product-271.png",
+      "description": "Versatile Acrylic Foam Tape for sealing, bonding, insulating, and surface protection across industrial and household jobs.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-203",
+      "name": "Acrylic Emulsion Paint",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "paints-brushes",
+      "subcategoryName": "Paints, Sprays & Brushes",
+      "image": "/assets/images/products/catalogue/paints_spray_paints_brushes_locks/product-203.png",
+      "description": "Quality Acrylic Emulsion Paint for finishing, protection, and security in residential and commercial projects.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-207",
+      "name": "Spray Paint Can",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "paints-brushes",
+      "subcategoryName": "Paints, Sprays & Brushes",
+      "image": "/assets/images/products/catalogue/paints_spray_paints_brushes_locks/product-207.png",
+      "description": "Quality Spray Paint Can for finishing, protection, and security in residential and commercial projects.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-210",
+      "name": "Enamel Metal Paint",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "paints-brushes",
+      "subcategoryName": "Paints, Sprays & Brushes",
+      "image": "/assets/images/products/catalogue/paints_spray_paints_brushes_locks/product-210.png",
+      "description": "Quality Enamel Metal Paint for finishing, protection, and security in residential and commercial projects.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-211",
+      "name": "Wood Polish Varnish",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "paints-brushes",
+      "subcategoryName": "Paints, Sprays & Brushes",
+      "image": "/assets/images/products/catalogue/paints_spray_paints_brushes_locks/product-211.png",
+      "description": "Quality Wood Polish Varnish for finishing, protection, and security in residential and commercial projects.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-212",
+      "name": "Wall Primer",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "paints-brushes",
+      "subcategoryName": "Paints, Sprays & Brushes",
+      "image": "/assets/images/products/catalogue/paints_spray_paints_brushes_locks/product-212.png",
+      "description": "Quality Wall Primer for finishing, protection, and security in residential and commercial projects.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-214",
+      "name": "Synthetic Bristle Brush",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "paints-brushes",
+      "subcategoryName": "Paints, Sprays & Brushes",
+      "image": "/assets/images/products/catalogue/paints_spray_paints_brushes_locks/product-214.png",
+      "description": "Quality Synthetic Bristle Brush for finishing, protection, and security in residential and commercial projects.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-215",
+      "name": "Angle Paint Brush",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "paints-brushes",
+      "subcategoryName": "Paints, Sprays & Brushes",
+      "image": "/assets/images/products/catalogue/paints_spray_paints_brushes_locks/product-215.png",
+      "description": "Quality Angle Paint Brush for finishing, protection, and security in residential and commercial projects.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-216",
+      "name": "Foam Roller Sleeve",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "paints-brushes",
+      "subcategoryName": "Paints, Sprays & Brushes",
+      "image": "/assets/images/products/catalogue/paints_spray_paints_brushes_locks/product-216.png",
+      "description": "Quality Foam Roller Sleeve for finishing, protection, and security in residential and commercial projects.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-217",
+      "name": "Paint Tray Set",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "paints-brushes",
+      "subcategoryName": "Paints, Sprays & Brushes",
+      "image": "/assets/images/products/catalogue/paints_spray_paints_brushes_locks/product-217.png",
+      "description": "Quality Paint Tray Set for finishing, protection, and security in residential and commercial projects.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-218",
+      "name": "Padlock Brass",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "paints-brushes",
+      "subcategoryName": "Paints, Sprays & Brushes",
+      "image": "/assets/images/products/catalogue/paints_spray_paints_brushes_locks/product-218.png",
+      "description": "Quality Padlock Brass for finishing, protection, and security in residential and commercial projects.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-221",
+      "name": "Mortise Door Lock",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "paints-brushes",
+      "subcategoryName": "Paints, Sprays & Brushes",
+      "image": "/assets/images/products/catalogue/paints_spray_paints_brushes_locks/product-221.png",
+      "description": "Quality Mortise Door Lock for finishing, protection, and security in residential and commercial projects.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-224",
+      "name": "Cylindrical Lock Set",
+      "category": "adhesives-paints",
+      "categoryName": "Adhesives, Paints & Surface Finishing",
+      "subcategory": "paints-brushes",
+      "subcategoryName": "Paints, Sprays & Brushes",
+      "image": "/assets/images/products/catalogue/paints_spray_paints_brushes_locks/product-224.png",
+      "description": "Quality Cylindrical Lock Set for finishing, protection, and security in residential and commercial projects.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-315",
+      "name": "Chain Pulley Block",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "lifting-bearings",
+      "subcategoryName": "Lifting Equipment & Bearings",
+      "image": "/assets/images/products/catalogue/lifting_items_bearings/product-315.png",
+      "description": "Heavy-duty Chain Pulley Block for safe lifting, load handling, and rotating machinery applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-317",
+      "name": "Wire Rope Sling",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "lifting-bearings",
+      "subcategoryName": "Lifting Equipment & Bearings",
+      "image": "/assets/images/products/catalogue/lifting_items_bearings/product-317.png",
+      "description": "Heavy-duty Wire Rope Sling for safe lifting, load handling, and rotating machinery applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-318",
+      "name": "Lifting Shackle",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "lifting-bearings",
+      "subcategoryName": "Lifting Equipment & Bearings",
+      "image": "/assets/images/products/catalogue/lifting_items_bearings/product-318.png",
+      "description": "Heavy-duty Lifting Shackle for safe lifting, load handling, and rotating machinery applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-319",
+      "name": "Deep Groove Ball Bearing",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "lifting-bearings",
+      "subcategoryName": "Lifting Equipment & Bearings",
+      "image": "/assets/images/products/catalogue/lifting_items_bearings/product-319.png",
+      "description": "Heavy-duty Deep Groove Ball Bearing for safe lifting, load handling, and rotating machinery applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-320",
+      "name": "Tapered Roller Bearing",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "lifting-bearings",
+      "subcategoryName": "Lifting Equipment & Bearings",
+      "image": "/assets/images/products/catalogue/lifting_items_bearings/product-320.png",
+      "description": "Heavy-duty Tapered Roller Bearing for safe lifting, load handling, and rotating machinery applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-321",
+      "name": "Pillow Block Bearing",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "lifting-bearings",
+      "subcategoryName": "Lifting Equipment & Bearings",
+      "image": "/assets/images/products/catalogue/lifting_items_bearings/product-321.png",
+      "description": "Heavy-duty Pillow Block Bearing for safe lifting, load handling, and rotating machinery applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-328",
+      "name": "Chain Hoist",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "lifting-bearings",
+      "subcategoryName": "Lifting Equipment & Bearings",
+      "image": "/assets/images/products/catalogue/lifting_items_bearings/product-328.png",
+      "description": "Heavy-duty Chain Hoist for safe lifting, load handling, and rotating machinery applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-329",
+      "name": "Lever Block",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "lifting-bearings",
+      "subcategoryName": "Lifting Equipment & Bearings",
+      "image": "/assets/images/products/catalogue/lifting_items_bearings/product-329.png",
+      "description": "Heavy-duty Lever Block for safe lifting, load handling, and rotating machinery applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-330",
+      "name": "Eye Hook Latch",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "lifting-bearings",
+      "subcategoryName": "Lifting Equipment & Bearings",
+      "image": "/assets/images/products/catalogue/lifting_items_bearings/product-330.png",
+      "description": "Heavy-duty Eye Hook Latch for safe lifting, load handling, and rotating machinery applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-331",
+      "name": "Roller Chain",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "lifting-bearings",
+      "subcategoryName": "Lifting Equipment & Bearings",
+      "image": "/assets/images/products/catalogue/lifting_items_bearings/product-331.png",
+      "description": "Heavy-duty Roller Chain for safe lifting, load handling, and rotating machinery applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-332",
+      "name": "Thrust Ball Bearing",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "lifting-bearings",
+      "subcategoryName": "Lifting Equipment & Bearings",
+      "image": "/assets/images/products/catalogue/lifting_items_bearings/product-332.png",
+      "description": "Heavy-duty Thrust Ball Bearing for safe lifting, load handling, and rotating machinery applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-333",
+      "name": "Bearing Puller Set",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "lifting-bearings",
+      "subcategoryName": "Lifting Equipment & Bearings",
+      "image": "/assets/images/products/catalogue/lifting_items_bearings/product-333.png",
+      "description": "Heavy-duty Bearing Puller Set for safe lifting, load handling, and rotating machinery applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-334",
+      "name": "Cargo Lashing Belt",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "lifting-bearings",
+      "subcategoryName": "Lifting Equipment & Bearings",
+      "image": "/assets/images/products/catalogue/lifting_items_bearings/product-334.png",
+      "description": "Heavy-duty Cargo Lashing Belt for safe lifting, load handling, and rotating machinery applications.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-077",
+      "name": "Platform Trolley",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-077.png",
+      "description": "Practical Platform Trolley for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-078",
+      "name": "Hand Truck Dolly",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-078.png",
+      "description": "Practical Hand Truck Dolly for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-079",
+      "name": "Caster Wheel Set",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-079.png",
+      "description": "Practical Caster Wheel Set for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-080",
+      "name": "Rubber Swivel Caster",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-080.png",
+      "description": "Practical Rubber Swivel Caster for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-081",
+      "name": "Heavy-Duty Trolley Wheel",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-081.png",
+      "description": "Practical Heavy-Duty Trolley Wheel for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-082",
+      "name": "Tool Storage Cabinet",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-082.png",
+      "description": "Practical Tool Storage Cabinet for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-083",
+      "name": "Plastic Storage Crate",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-083.png",
+      "description": "Practical Plastic Storage Crate for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-084",
+      "name": "Parts Bin",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-084.png",
+      "description": "Practical Parts Bin for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-085",
+      "name": "Steel Storage Rack",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-085.png",
+      "description": "Practical Steel Storage Rack for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-086",
+      "name": "Wire Mesh Cage",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-086.png",
+      "description": "Practical Wire Mesh Cage for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-087",
+      "name": "Folding Hand Trolley",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-087.png",
+      "description": "Practical Folding Hand Trolley for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-088",
+      "name": "Warehouse Ladder Trolley",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-088.png",
+      "description": "Practical Warehouse Ladder Trolley for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-089",
+      "name": "Pallet Truck",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-089.png",
+      "description": "Practical Pallet Truck for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-090",
+      "name": "Stackable Storage Box",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-090.png",
+      "description": "Practical Stackable Storage Box for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-091",
+      "name": "Industrial Tool Chest",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-091.png",
+      "description": "Practical Industrial Tool Chest for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-092",
+      "name": "Mobile Bin Trolley",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "trolleys-storage",
+      "subcategoryName": "Trolleys, Wheels & Storage",
+      "image": "/assets/images/products/catalogue/trolley_wheels_storage_products/product-092.png",
+      "description": "Practical Mobile Bin Trolley for organized storage and smooth material movement in workshops and warehouses.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-044",
+      "name": "Industrial Floor Wiper",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "housekeeping",
+      "subcategoryName": "Housekeeping Products",
+      "image": "/assets/images/products/catalogue/housekeeping_products/product-044.png",
+      "description": "Dependable Industrial Floor Wiper for daily cleaning and facility maintenance.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-045",
+      "name": "Microfiber Cleaning Mop",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "housekeeping",
+      "subcategoryName": "Housekeeping Products",
+      "image": "/assets/images/products/catalogue/housekeeping_products/product-045.png",
+      "description": "Dependable Microfiber Cleaning Mop for daily cleaning and facility maintenance.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-046",
+      "name": "Scrubbing Brush Set",
+      "category": "material-handling",
+      "categoryName": "Material Handling, Storage & Lifting",
+      "subcategory": "housekeeping",
+      "subcategoryName": "Housekeeping Products",
+      "image": "/assets/images/products/catalogue/housekeeping_products/product-046.png",
+      "description": "Dependable Scrubbing Brush Set for daily cleaning and facility maintenance.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-371",
+      "name": "ARC Welding Machine",
+      "category": "welding-metalworking",
+      "categoryName": "Welding & Metalworking",
+      "subcategory": "welding",
+      "subcategoryName": "Welding Equipment & Consumables",
+      "image": "/assets/images/products/catalogue/welding_products/product-371.png",
+      "description": "Industrial-grade ARC Welding Machine for arc, gas, and MIG welding operations in fabrication shops.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-372",
+      "name": "MIG Welding Wire",
+      "category": "welding-metalworking",
+      "categoryName": "Welding & Metalworking",
+      "subcategory": "welding",
+      "subcategoryName": "Welding Equipment & Consumables",
+      "image": "/assets/images/products/catalogue/welding_products/product-372.png",
+      "description": "Industrial-grade MIG Welding Wire for arc, gas, and MIG welding operations in fabrication shops.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-373",
+      "name": "Welding Electrode Rod",
+      "category": "welding-metalworking",
+      "categoryName": "Welding & Metalworking",
+      "subcategory": "welding",
+      "subcategoryName": "Welding Equipment & Consumables",
+      "image": "/assets/images/products/catalogue/welding_products/product-373.png",
+      "description": "Industrial-grade Welding Electrode Rod for arc, gas, and MIG welding operations in fabrication shops.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-374",
+      "name": "Welding Holder",
+      "category": "welding-metalworking",
+      "categoryName": "Welding & Metalworking",
+      "subcategory": "welding",
+      "subcategoryName": "Welding Equipment & Consumables",
+      "image": "/assets/images/products/catalogue/welding_products/product-374.png",
+      "description": "Industrial-grade Welding Holder for arc, gas, and MIG welding operations in fabrication shops.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-378",
+      "name": "Earth Clamp",
+      "category": "welding-metalworking",
+      "categoryName": "Welding & Metalworking",
+      "subcategory": "welding",
+      "subcategoryName": "Welding Equipment & Consumables",
+      "image": "/assets/images/products/catalogue/welding_products/product-378.png",
+      "description": "Industrial-grade Earth Clamp for arc, gas, and MIG welding operations in fabrication shops.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-380",
+      "name": "Welding Cable",
+      "category": "welding-metalworking",
+      "categoryName": "Welding & Metalworking",
+      "subcategory": "welding",
+      "subcategoryName": "Welding Equipment & Consumables",
+      "image": "/assets/images/products/catalogue/welding_products/product-380.png",
+      "description": "Industrial-grade Welding Cable for arc, gas, and MIG welding operations in fabrication shops.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-381",
+      "name": "Gas Cutting Nozzle",
+      "category": "welding-metalworking",
+      "categoryName": "Welding & Metalworking",
+      "subcategory": "welding",
+      "subcategoryName": "Welding Equipment & Consumables",
+      "image": "/assets/images/products/catalogue/welding_products/product-381.png",
+      "description": "Industrial-grade Gas Cutting Nozzle for arc, gas, and MIG welding operations in fabrication shops.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-382",
+      "name": "Oxygen Regulator",
+      "category": "welding-metalworking",
+      "categoryName": "Welding & Metalworking",
+      "subcategory": "welding",
+      "subcategoryName": "Welding Equipment & Consumables",
+      "image": "/assets/images/products/catalogue/welding_products/product-382.png",
+      "description": "Industrial-grade Oxygen Regulator for arc, gas, and MIG welding operations in fabrication shops.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-383",
+      "name": "Acetylene Regulator",
+      "category": "welding-metalworking",
+      "categoryName": "Welding & Metalworking",
+      "subcategory": "welding",
+      "subcategoryName": "Welding Equipment & Consumables",
+      "image": "/assets/images/products/catalogue/welding_products/product-383.png",
+      "description": "Industrial-grade Acetylene Regulator for arc, gas, and MIG welding operations in fabrication shops.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-384",
+      "name": "Welding Chipping Hammer",
+      "category": "welding-metalworking",
+      "categoryName": "Welding & Metalworking",
+      "subcategory": "welding",
+      "subcategoryName": "Welding Equipment & Consumables",
+      "image": "/assets/images/products/catalogue/welding_products/product-384.png",
+      "description": "Industrial-grade Welding Chipping Hammer for arc, gas, and MIG welding operations in fabrication shops.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-385",
+      "name": "Wire Brush Set",
+      "category": "welding-metalworking",
+      "categoryName": "Welding & Metalworking",
+      "subcategory": "welding",
+      "subcategoryName": "Welding Equipment & Consumables",
+      "image": "/assets/images/products/catalogue/welding_products/product-385.png",
+      "description": "Industrial-grade Wire Brush Set for arc, gas, and MIG welding operations in fabrication shops.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-386",
+      "name": "Welding Helmet",
+      "category": "welding-metalworking",
+      "categoryName": "Welding & Metalworking",
+      "subcategory": "welding",
+      "subcategoryName": "Welding Equipment & Consumables",
+      "image": "/assets/images/products/catalogue/welding_products/product-386.png",
+      "description": "Industrial-grade Welding Helmet for arc, gas, and MIG welding operations in fabrication shops.",
+      "price": "Price on request"
+    },
+    {
+      "id": "product-387",
+      "name": "Welding Gauntlet Gloves",
+      "category": "welding-metalworking",
+      "categoryName": "Welding & Metalworking",
+      "subcategory": "welding",
+      "subcategoryName": "Welding Equipment & Consumables",
+      "image": "/assets/images/products/catalogue/welding_products/product-387.png",
+      "description": "Industrial-grade Welding Gauntlet Gloves for arc, gas, and MIG welding operations in fabrication shops.",
+      "price": "Price on request"
+    }
+  ]
+}
