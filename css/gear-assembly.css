@@ -1,0 +1,269 @@
+/* ==========================================================================
+   Gear Assembly Widget — GTHS hero
+   anime.js-driven exploded-view mechanical gear assembly.
+   Two variants (3-gear simple / 5-gear complex), auto-assembles on load.
+   No sound. Metallic-grey on dark hero background.
+   ========================================================================== */
+
+.ga-widget,
+.ga-widget * {
+  box-sizing: border-box;
+}
+
+.ga-widget {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: var(--font-body);
+}
+
+/* ---------- scene (transparent — sits directly on the hero background) ---------- */
+
+.ga-scene {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 640 / 420;
+  cursor: pointer;
+}
+
+.ga-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.45));
+  transition: filter 0.3s ease;
+}
+
+.ga-widget:hover .ga-svg {
+  filter:
+    drop-shadow(0 10px 26px rgba(0, 0, 0, 0.5))
+    drop-shadow(0 0 14px rgba(244, 208, 63, 0.14));
+}
+
+/* ---------- svg part defaults (metallic greys on dark) ---------- */
+
+.ga-part {
+  will-change: transform;
+}
+
+.ga-hidden {
+  display: none;
+}
+
+/* gears — tooth geometry is generated inline by gear-assembly.js */
+.ga-gear-path {
+  fill: url(#gaGradGear);
+  stroke: #cfd5da;
+  stroke-width: 1.4;
+  stroke-linejoin: round;
+}
+.ga-gear-hub {
+  fill: url(#gaGradSteel);
+  stroke: #565a60;
+  stroke-width: 1;
+}
+.ga-gear-bore {
+  fill: #17181b;
+  stroke: #4c5155;
+  stroke-width: 1;
+}
+.ga-gear-mark {
+  stroke: rgba(244, 208, 63, 0.85);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.ga-widget:hover .ga-gear-path {
+  stroke: var(--yellow-300);
+}
+
+/* housing */
+.ga-housing-back-rect {
+  fill: url(#gaGradHousing);
+  stroke: #4a4d52;
+  stroke-width: 1.5;
+}
+.ga-housing-front-frame {
+  fill: none;
+  stroke: #8b9095;
+  stroke-width: 8;
+}
+.ga-housing-front-inner {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.14);
+  stroke-width: 1;
+}
+
+/* shafts */
+.ga-shaft-body {
+  fill: url(#gaGradSteel);
+  stroke: #565a60;
+  stroke-width: 1;
+}
+.ga-shaft-cap {
+  fill: #cfd5da;
+  opacity: 0.85;
+}
+
+/* guard plate */
+.ga-guard-plate {
+  fill: rgba(255, 255, 255, 0.06);
+  stroke: #9c9c9c;
+  stroke-width: 1.5;
+}
+.ga-guard-rivet {
+  fill: #8a611f;
+}
+
+/* part bolts (svg parts, not the panel corner decorations) */
+.ga-bolt-part {
+  fill: url(#gaGradBolt);
+  stroke: #565a60;
+  stroke-width: 1;
+}
+.ga-bolt-slot {
+  stroke: #2a2a2c;
+  stroke-width: 1.4;
+  stroke-linecap: round;
+}
+
+/* ---------- labels (visible only in exploded view) ---------- */
+
+.ga-label {
+  opacity: 0;
+  transition: opacity 0.45s ease 0.1s;
+  pointer-events: none;
+}
+.ga-widget.ga-exploded .ga-label {
+  opacity: 1;
+}
+.ga-label__leader {
+  stroke: rgba(244, 208, 63, 0.65);
+  stroke-width: 1;
+}
+.ga-label__dot {
+  fill: var(--yellow-300);
+}
+.ga-label__text {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  fill: #d7dade;
+}
+
+/* ---------- floating readout / controls overlay ---------- */
+
+.ga-readout {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  padding: 26px 10px 8px;
+  background: linear-gradient(to top, rgba(11, 11, 12, 0.55), transparent);
+  pointer-events: none;
+}
+.ga-readout__data {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-family: var(--font-mono);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+.ga-readout__spec {
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  color: rgba(215, 218, 222, 0.72);
+  white-space: nowrap;
+}
+.ga-readout__label {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(158, 163, 169, 0.85);
+}
+.ga-readout__value {
+  font-size: 13px;
+  color: var(--yellow-500);
+  letter-spacing: 0.02em;
+  min-width: 8ch;
+}
+.ga-readout__status {
+  font-size: 10px;
+  color: rgba(200, 204, 209, 0.85);
+  padding-left: 10px;
+  border-left: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.ga-readout__controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ga-mode-toggle {
+  display: flex;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(19, 19, 21, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  pointer-events: auto;
+}
+
+.ga-mode-btn {
+  padding: 5px 12px;
+  border: none;
+  background: transparent;
+  color: #c7cbd0;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.ga-mode-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+.ga-mode-btn.ga-mode-btn--active {
+  background: var(--yellow-500);
+  color: #241a08;
+  font-weight: 600;
+}
+
+.ga-hint {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  color: rgba(158, 163, 169, 0.75);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.ga-widget button:focus-visible {
+  outline: 2px solid var(--yellow-500);
+  outline-offset: 2px;
+}
+
+/* ---------- narrow layout ---------- */
+
+@media (max-width: 420px) {
+  .ga-widget .ga-readout { gap: 4px 8px; padding: 22px 6px 6px; }
+  .ga-widget .ga-readout__label { display: none; }
+  .ga-widget .ga-readout__spec { font-size: 9px; }
+  .ga-widget .ga-hint { display: none; }
+  .ga-widget .ga-label__text { font-size: 8px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ga-label {
+    transition: none;
+  }
+}
