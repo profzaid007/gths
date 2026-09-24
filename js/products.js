@@ -92,7 +92,10 @@
           <h3>${p.name}</h3>
           <p class="product-desc">${p.description}</p>
           <div class="product-price">${p.price}</div>
-          <button class="btn btn-dark btn-block" type="button">Request Quote</button>
+          <button class="btn btn-dark btn-block" type="button"
+            onclick="window.open('https://wa.me/919843047963?text=Hi%2C%20I%20would%20like%20to%20request%20a%20quote%20for%20${p.name}', '_blank')">
+            Request Quote
+          </button>
         </div>
       </article>
     `).join('');
