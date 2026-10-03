@@ -184,17 +184,6 @@
       "price": "Price on request"
     },
     {
-      "id": "product-340",
-      "name": "Airtech Absolute Pressure Gauge Set",
-      "category": "hand-tools-measuring",
-      "categoryName": "Hand Tools & Measuring Instruments",
-      "subcategory": "gauges",
-      "subcategoryName": "Pressure & Dial Gauges",
-      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-340.png",
-      "description": "Pair of Airtech absolute pressure gauges for vacuum and pressure measurement, calibrated in Torr.",
-      "price": "Price on request"
-    },
-    {
       "id": "product-341",
       "name": "Compound Pressure Gauge",
       "category": "hand-tools-measuring",
@@ -203,17 +192,6 @@
       "subcategoryName": "Pressure & Dial Gauges",
       "image": "/assets/images/products/catalogue/gauges_hand_tools/product-341.png",
       "description": "Reliable Compound Pressure Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
-      "price": "Price on request"
-    },
-    {
-      "id": "product-343",
-      "name": "Vacuum Pressure Gauge",
-      "category": "hand-tools-measuring",
-      "categoryName": "Hand Tools & Measuring Instruments",
-      "subcategory": "gauges",
-      "subcategoryName": "Pressure & Dial Gauges",
-      "image": "/assets/images/products/catalogue/gauges_hand_tools/product-343.png",
-      "description": "Reliable Vacuum Pressure Gauge built for accurate readings in industrial, hydraulic, and pneumatic systems.",
       "price": "Price on request"
     },
     {
@@ -720,17 +698,6 @@
       "subcategoryName": "Fasteners & Anchors",
       "image": "/assets/images/products/catalogue/fasteners/product-184.png",
       "description": "High-strength Hex Nut & Washer Kit for secure fixing in concrete, masonry, and structural applications.",
-      "price": "Price on request"
-    },
-    {
-      "id": "product-185",
-      "name": "Spring Toggle Anchor",
-      "category": "fasteners-hardware",
-      "categoryName": "Fasteners, Fixings & Hardware",
-      "subcategory": "fasteners",
-      "subcategoryName": "Fasteners & Anchors",
-      "image": "/assets/images/products/catalogue/fasteners/product-185.png",
-      "description": "High-strength Spring Toggle Anchor for secure fixing in concrete, masonry, and structural applications.",
       "price": "Price on request"
     },
     {
