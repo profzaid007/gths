@@ -337,8 +337,10 @@ h3 {
   align-items: center;
   justify-content: center;
 }
+
 .nav-toggle {
   display: none;
+  visibility: hidden;
 }
 
 /* ===================== BUTTONS ===================== */
@@ -1295,6 +1297,7 @@ input:focus-visible {
   }
   .nav-toggle {
     display: flex;
+    visibility: visible;
     background: none;
     border: none;
     color: var(--paper);
