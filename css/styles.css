@@ -211,7 +211,7 @@ h3 {
 .utility-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   height: 38px;
   gap: 16px;
 }
