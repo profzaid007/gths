@@ -250,15 +250,9 @@ h3 {
   flex-shrink: 0;
 }
 .logo-badge {
-  font-family: var(--font-stencil);
-  font-size: 1.5rem;
-  line-height: 1;
-  letter-spacing: 0.02em;
-  color: var(--paper);
-  border: 3px solid var(--yellow-500);
-  padding: 7px 10px 5px;
-  white-space: nowrap;
+  width: 7rem;
 }
+
 .logo-est {
   font-family: var(--font-mono);
   font-size: 0.6rem;
