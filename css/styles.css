@@ -704,6 +704,7 @@ h3 {
   border-color: var(--yellow-500);
   box-shadow: 0 0 0 3px rgba(241, 196, 15, 0.15);
 }
+
 .search-box .search-icon {
   position: absolute;
   left: 14px;
@@ -1236,7 +1237,6 @@ a:focus-visible,
 button:focus-visible,
 input:focus-visible {
   outline: 2px solid var(--yellow-500);
-  outline-offset: 3px;
 }
 @media (prefers-reduced-motion: reduce) {
   html {
