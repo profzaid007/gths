@@ -1107,18 +1107,15 @@ h3 {
   color: var(--bone);
   position: relative;
   background-color: var(--black-950);
-  padding-top: 88px;
+  padding-top: 40px;
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr 1fr 1.2fr;
-  gap: 32px;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 24px;
   position: relative;
   z-index: 2;
-  padding-bottom: 64px;
-}
-.footer-brand .logo {
-  margin-bottom: 16px;
+  padding-bottom: 30px;
 }
 .footer-brand p {
   color: var(--steel-300);
@@ -1128,14 +1125,14 @@ h3 {
 }
 .footer-col h4 {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.85rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--yellow-300);
   margin-bottom: 18px;
 }
 .footer-col ul li {
-  margin-bottom: 11px;
+  margin-bottom: 7px;
 }
 .footer-col a {
   color: var(--steel-300);
@@ -1145,46 +1142,10 @@ h3 {
 .footer-col a:hover {
   color: var(--paper);
 }
-.footer-news p {
-  color: var(--steel-300);
-  font-size: 0.85rem;
-  margin-bottom: 14px;
-}
-.footer-news-form {
-  display: flex;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 4px;
-  overflow: hidden;
-}
-.footer-news-form input {
-  flex: 1;
-  background: transparent;
-  border: none;
-  padding: 12px 14px;
-  color: var(--paper);
-  font-size: 0.85rem;
-}
-.footer-news-form input::placeholder {
-  color: var(--steel-500);
-}
-.footer-news-form input:focus {
-  outline: none;
-}
-.footer-news-form button {
-  background: var(--yellow-500);
-  color: var(--black-950);
-  border: none;
-  padding: 0 16px;
-  cursor: pointer;
-  font-weight: 700;
-}
-.footer-news-form button:hover {
-  background: var(--yellow-300);
-}
 .footer-bottom {
   position: relative;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 24px 0;
+  padding: 20px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1320,7 +1281,7 @@ input:focus-visible {
   }
   .footer-grid {
     grid-template-columns: 1fr 1fr;
-    gap: 44px 24px;
+    gap: 32px 24px;
   }
   .footer-brand {
     grid-column: 1/-1;
@@ -1389,6 +1350,6 @@ input:focus-visible {
   }
 
   .footer-bottom {
-    padding: 30px 0;
+    padding: 24px 0;
   }
 }

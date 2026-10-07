@@ -126,7 +126,7 @@ Preserve the existing design system. All styles should be consistent with `gths.
 
 - Buttons: `.btn`, `.btn-solid`, `.btn-outline`, `.btn-dark`.
 - Cards: `.cat-card`, `.prod-card`, `.brand-tile`, `.value-item`.
-- Forms: `.trade-form`, `.footer-news-form`.
+- Forms: `.trade-form`.
 - Icons: inline SVG, stroke-based, yellow accent color.
 
 ### 5.5 Layout

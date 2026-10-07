@@ -19,13 +19,6 @@ function handleTradeSubmit(e){
   setTimeout(() => { btn.textContent = original; e.target.reset(); }, 2200);
 }
 
-function handleNewsletterSubmit(e){
-  e.preventDefault();
-  const btn = e.target.querySelector('button');
-  btn.textContent = '✓';
-  setTimeout(() => { btn.textContent = '→'; e.target.reset(); }, 2200);
-}
-
 function handleCatalogueDownload(e){
   e.preventDefault();
   const form = document.getElementById('catalogueForm');
